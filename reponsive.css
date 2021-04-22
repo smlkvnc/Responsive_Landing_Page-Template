@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+}
+/*head*/
+.head-text{
+    padding: 1.5rem 2rem;
+    font-size: 2rem;   
+}
+p{
+    padding: 1.5rem 0;
+    padding-bottom: 4rem;   
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+a.btn{
+    border: 1px solid black;
+    padding: 1.5rem ;
+    transition: all 0.5s;
+    display: inline-block;
+}
+a.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+header{
+    height: 45rem;
+    
+}
+header .img-div{
+    background-image: url(../img/bg.jpeg);
+    height: 45rem;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+.head-text h2{
+    padding: 11rem;
+    padding-bottom: 0;
+}
+
+/*main*/
+.content{
+    padding: 2rem;
+}
+.content ul{
+    list-style: none;
+    
+}
+.content li{
+    color: honeydew;
+    background-color: #333;
+    margin-bottom: 2rem;
+    border-radius: 2.5rem;
+}
+.content li img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    
+}
+.content li h3{
+    padding: 2rem;
+}
+
+/*footer*/
+.contact{
+    background-color: rgb(67, 67, 255);
+    padding-top: 2rem;
+    
+}
+.about{
+    background-color: #333;
+    padding-top: 2rem;
+}
+
+@media screen and (min-width:800px){
+
+    .contact , .about{
+        width: 50%;
+        float: left;
+    }
+    main li{
+        width: 28%;
+        display: inline-block;
+    }
+    html{
+        font-size: 10px;
+    }
+
+}
